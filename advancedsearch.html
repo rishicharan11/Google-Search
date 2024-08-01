@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google Search</title>   
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="advnav-bar">
+            <img class="advgoogleimg" src="Google_2015_logo.svg.png" alt="googleImage" height="24px" width="74px">
+            <ul>
+                <li><a href="search.html">Google Search</a></li>
+            </ul>
+        </div>
+        
+        <div class="labelfont">
+            <label>Advanced Search</label>
+        </div> 
+        <div class="advlabel"></div>
+
+        <div class="advmainpage">
+           <span>Find pages with...</span>
+           <form action="https://www.google.com/search" name="f"> 
+            <div class="findpagewith">
+                <label>all these words:</label>
+                <input type="text" name="as_q">
+            </div>
+            <div class="findpagewith">
+                <label>this exact word or phrase:</label>
+                <input type="text" name="as_epq">
+            </div>
+            <div class="findpagewith">
+                <label>any of these words:</label>
+                <input type="text" name="as_oq">
+            </div>
+            <div class="findpagewith">
+                <label>none of these words:</label>
+                <input type="text" name="as_eq">
+            </div>
+            <div class="advbtn">
+                <input type="submit" value="Advanced Search"> 
+            </div>
+           </form>
+        </div>
+    </body>
+</html>
